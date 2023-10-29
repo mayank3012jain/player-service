@@ -2,6 +2,11 @@
 The player service provides players data. 
 
 ## Running the service
+Running as a program
 ```
-./buildScripts/run.sh
+make run
+```
+Running as a docker container
+```
+make dockerRun
 ```
