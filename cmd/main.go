@@ -28,6 +28,7 @@ func main() {
 		playerService = domain.NewPlayerService(logger, playerStore)
 		router = gin.Default()
 		_ = controller.NewPlayerController(logger, playerService, router)
+		_ = controller.NewRateLimitController(logger, router)
 	)
 
 	logger.Info("Player service is starting on port :8080")
