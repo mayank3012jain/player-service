@@ -3,5 +3,5 @@ The player service provides players data.
 
 ## Running the service
 ```
-go run // TODO
+./buildScripts/run.sh
 ```
