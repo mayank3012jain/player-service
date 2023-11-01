@@ -1,6 +1,9 @@
 # Player Service
 The player service provides players data. 
 
+## Architecture
+![](https://github.com/mayank3012jain/player-service/blob/master/UML.jpg?raw=true)
+
 ## Running the service
 Running as a program
 ```
